@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(253, 250, 244);
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: rgb(209, 198, 183);
 }
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #a79e8e;
 }
 
 ul {
@@ -22,14 +22,20 @@ ul {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #7a9b93;
     padding: 8px;
     width: 130px;
     height: auto;
-    color: white;
+    font-weight: bold;
+    color: #ffffff;
     font-size: 18px;
     border-style: none;
     border-radius: 8px;
+}
+
+img {
+    width: 480px;
+    height: 480px;
 }
 
 .section1 {
@@ -37,7 +43,7 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     gap: 150px;
-    background-color: #1f2937;
+    background-color: #443828;
 }
 
 .header {
@@ -50,7 +56,7 @@ button {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #e7dfcf;
     font-weight: 700;
 }
 
@@ -60,6 +66,7 @@ button {
     justify-content: center;
     gap: 80px;
     padding-bottom: 200px;
+    margin: 0 130px;
 }
 
 .left {
@@ -77,18 +84,20 @@ button {
 
 .subtitle {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #a79e8e;
+    line-height: 1.5;
 }
 
-.img-placeholder {
+
+/*.img-placeholder {
     width: 480px;
     height: 250px;
-    background-color: rgb(107, 107, 107);
-    color: #e5e7eb;
+    background-color: #a89e8c;
+    color: #58544c;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 
 /*section2*/
@@ -104,7 +113,7 @@ button {
 .random-info {
     font-size: 36px;
     font-weight: 700;
-    color: #1F2937;
+    color: #58544c;
     padding-top: 48px;
 }
 
@@ -129,7 +138,7 @@ button {
     flex: 0 0 auto;
     height: 180px;
     width: 180px;
-    border: 5px solid #3882f6;
+    border: 5px solid #a2c2b9;
     border-radius: 20px;
 }
 
@@ -138,6 +147,7 @@ button {
     width: 180px;
     height: auto;
     text-align: center;
+    color: #a89e8c;
 }
 
 
@@ -145,8 +155,8 @@ button {
 
 .section3 {
     display: flex;
-    background-color: #e5e7eb;
-    color: #1F2937;
+    background-color: #a79e8e;
+    color: #443828;
     flex-direction: column;
     justify-content: center;
     padding: 130px 18%;
@@ -170,7 +180,7 @@ button {
 
 .section4 {
     display: flex;
-    background-color: #3882f6;
+    background-color: #443828;
     margin: 130px 10%;
     justify-content: space-around;
     align-items: center;
@@ -192,11 +202,9 @@ button {
 
 .action-subtitle {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #a79e8e;
 }
 
 .call-to-action {
-    border-color: white;
-    border: 3px solid;
     width: 150px;
 }
